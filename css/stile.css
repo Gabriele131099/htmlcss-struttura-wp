@@ -1,0 +1,82 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.contenitore
+{
+    width: 60%;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+.fl
+{
+    float: left;
+}
+
+/* blochi con 100% di larghezza */
+.row100 , .row1 , .row2 , .row3, .row4 , .contenitore-art
+{
+    margin-top: 20px;
+    width: 100%;
+}
+.row1
+{
+    height: 10vh;
+    background-color: aquamarine;
+}
+
+.row2
+{
+    height: 38vh;
+    background-color: aquamarine;
+}
+
+.row3
+{
+    margin-top: 60px;
+    height: 38vh;
+    background-color: navy;
+}
+
+.row4
+{
+    height: 10vh;
+    background-color: aquamarine;
+}
+
+/* blocchi dentro il terzo contenitore */
+.contenitore-art
+{
+    background-color: aquamarine;
+}
+
+.subrow3  , .subrow3a  , .subrow3b  , .subrow3c
+{
+    float: left;
+    background-color: red;
+    height: 30vh;
+    width: calc(25% - 27px);
+}
+.subrow3a
+{
+    margin: 40px 0px;
+}
+
+.subrow3b
+{
+    width: calc(50% - 27px);
+    margin: 40px 40px 40px 40px;
+}
+
+.subrow3c
+{
+    margin-right: 0px;
+    margin-top: 40px;
+}
+
+
+
