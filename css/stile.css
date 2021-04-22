@@ -54,28 +54,31 @@
     background-color: lightblue;
 }
 
-.subrow3  , .subrow3a  , .subrow3b  , .subrow3c
+.subrow3
 {
     float: left;
-    background-color: lightblue;
+    background-color: olive;
     height: 40vh;
-    width: 22%;
+    width: 25%;
 }
-.subrow3a
+
+.a
 {
-    margin: 5% 0%;
+    width:  50%;
+    padding: 40px;
+    background-color: orange;
 }
 
-.subrow3b
+.b
 {
-    width:  46%;
-    margin:5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: orange;
 }
 
-.subrow3c
+.colore
 {
-    margin-top: 5%;
+    background-color: navy;
+    width: 100%;
+    height: 100%;
 }
-
-
-
