@@ -7,7 +7,7 @@
 
 .contenitore
 {
-    width: 60%;
+    max-width: 60%;
     background-color: lightgrey;
     margin: auto;
 }
@@ -59,23 +59,22 @@
     float: left;
     background-color: lightblue;
     height: 40vh;
-    width: calc(25% - 27px);
+    width: 22%;
 }
 .subrow3a
 {
-    margin: 40px 0px;
+    margin: 5% 0%;
 }
 
 .subrow3b
 {
-    width: calc(50% - 27px);
-    margin: 40px 40px 40px 40px;
+    width:  46%;
+    margin:5%;
 }
 
 .subrow3c
 {
-    margin-right: 0px;
-    margin-top: 40px;
+    margin-top: 5%;
 }
 
 
